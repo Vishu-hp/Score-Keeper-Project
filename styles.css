@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(235, 55, 52),rgb(58, 52, 235));
+}
+
+
+.disable{
+    opacity: 0.5;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+.winner{
+    color: green;
+}
+
+.loser{
+    color: red;
+}
+
+h3 ,.scoresClass, .instruction ,.selectTag {
+    margin-left: 5px;
+}
+
+.buttonClass{
+    display: flex;
+    justify-content: space-between;
+}
+
+ button{
+    flex: 1;
+}
+
+.spanClass{
+    font-size: 40px;
+}
+
+.selectTag{
+    margin-bottom: 5px;
+}
+
+#selecting-scores{
+    margin-left: 5px;
+}
+
+.main{
+    background-color:blanchedalmond;
+}
